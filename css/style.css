@@ -15,6 +15,9 @@ header {
 
 .flex {
     display: flex;
+}
+
+.justify-between {
     justify-content: space-between;
 }
 
@@ -144,14 +147,6 @@ header {
 
 .p-35 {
     padding: 35px;
-}
-
-.bord-dashed {
-    border: 2px dashed black;
-}
-
-.bord-dashed-w {
-    border: 2px dashed #fff;
 }
 
 h2 {
