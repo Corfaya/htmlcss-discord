@@ -145,10 +145,6 @@ footer {
 
 
 
-.bg-lightseagreen {
-    border: 1px solid #20b2aa;
-}
-
 .bg-aqua {
     border: 1px solid #7FFFD4;
 }
@@ -205,6 +201,10 @@ footer {
     padding-top: 5px;
 }
 
+.pt-10 {
+    padding-top: 10px;
+}
+
 .pt-20 {
     padding-top: 20px;
 }
@@ -224,8 +224,11 @@ footer {
 /* Other styles */ 
 .col-60 li {
     display: inline-block;
-    list-style-type: none;
     padding: 2px 5px;
+}
+
+li {
+    list-style-type: none;
 }
 
 [href="#"]{    
@@ -295,4 +298,12 @@ div .social {
     width: 30px;
     height: 30px;
     margin: 10px 10px 0 0;
+}
+
+.footer-list>li:first-child {
+    font-weight: 700;
+}
+
+.footer-list {
+    line-height: 30px;
 }
