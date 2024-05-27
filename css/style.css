@@ -112,17 +112,12 @@ body {
 
 
 
-
-.bg-white {
-    background-color: #fff;
-}
-
 .bg-dodgerblue {
-    background-color: #1E90FF;
+    border:1px solid #1E90FF;
 }
 
 .bg-pink {
-    background-color: #FFC0CB;
+    border:1px solid #FFC0CB;
 }
 
 .bg-lightgray {
@@ -149,6 +144,14 @@ body {
     background-color: #7FFFD4;
 }
 /* Margins and paddings */
+.m-10 {
+    margin: 10px;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
 .ml-auto {
     margin-left: auto;
 }
@@ -157,32 +160,12 @@ body {
     margin-top: 5px;
 }
 
-.m-10 {
-    margin: 10px;
-}
-
-.p-7-10 {
-    padding: 7px 10px;   
-}
-
-.py-20 {
-    padding: 20px 0;
-}
-
-.py-10-20 {
-    padding: 10px 0 20px 0;
-}
-
-.pt-20 {
-    padding-top: 20px;
-}
-
 .p-5 {
     padding: 5px;
 }
 
-.pt-5 {
-    padding-top: 5px;
+.p-7-10 {
+    padding: 7px 10px;   
 }
 
 .p-10 {
@@ -195,6 +178,22 @@ body {
 
 .p-35 {
     padding: 35px;
+}
+
+.py-20 {
+    padding: 20px 0;
+}
+
+.py-10-20 {
+    padding: 10px 0 20px 0;
+}
+
+.pt-5 {
+    padding-top: 5px;
+}
+
+.pt-20 {
+    padding-top: 20px;
 }
 
 /* Other styles */
@@ -235,5 +234,10 @@ h1 {
 }
 
 .text-20 {
+    font-size: 20px;
+}
+
+.line-height-20 {
+    line-height: 30px;
     font-size: 20px;
 }
