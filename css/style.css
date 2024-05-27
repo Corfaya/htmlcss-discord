@@ -11,6 +11,11 @@ body {
     font-weight: 500;
 }
 
+footer {
+    color: #7289DA;
+    background-color: #23272A;
+}
+
 .flex {
     display: flex;
 }
@@ -141,19 +146,19 @@ body {
 
 
 .bg-darkturquoise {
-    background-color: #23272A;
+    border: 1px solid #23272A;
 }
 
 .bg-lightcoral {
-    background-color: #F08080;
+    border: 1px solid #F08080;
 }
 
 .bg-lightseagreen {
-    background-color: #20b2aa;
+    border: 1px solid #20b2aa;
 }
 
 .bg-aqua {
-    background-color: #7FFFD4;
+    border: 1px solid #7FFFD4;
 }
 /* Margins and paddings */
 .m-10 {
@@ -270,4 +275,18 @@ h3 {
 .line-height-20 {
     line-height: 30px;
     font-size: 20px;
+}
+
+.footer-text-title {
+    font-size: 35px;
+}
+
+.ita-flag {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.arrow {
+    display: inline-block;
+    vertical-align: middle;
 }
