@@ -7,14 +7,16 @@
 
 body {
     font-family: 'Arial', sans-serif;
-}
-
-header {
-    background-color: #ADD8E6;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .flex {
     display: flex;
+}
+
+.d-block {
+    display: block;
 }
 
 .justify-between {
@@ -73,12 +75,13 @@ header {
 }
 
 /* CONTENTS' STYLE*/
-.bg-lightblue {
-    background-color: #ADD8E6;
+/* Backgrounds */
+.bg-seablue {
+    background-color: #255EE9;
 }
 
-.bg-gold {
-    background-color: #DAA520;
+.bg-white {
+    background-color: #fff;
 }
 
 .bg-darkblue {
@@ -124,6 +127,18 @@ header {
 .bg-aqua {
     background-color: #7FFFD4;
 }
+/* Margins and paddings */
+.ml-auto {
+    margin-left: auto;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.p-7-10 {
+    padding: 7px 10px;   
+}
 
 .py-20 {
     padding: 20px 0;
@@ -141,6 +156,10 @@ header {
     padding: 5px;
 }
 
+.pt-5 {
+    padding-top: 5px;
+}
+
 .p-10 {
     padding: 10px;
 }
@@ -149,20 +168,23 @@ header {
     padding: 35px;
 }
 
-h2 {
-    font-size: 16px;
-    font-weight: 500;
-}
-
-#login {
-    text-align: right;
-}
-
+/* Other styles */
 .col-60 li {
     display: inline-block;
     list-style-type: none;
+    padding: 2px 5px;
+}
+
+[href="#"]{    
+    text-decoration: none;
+    color: #fff;
 }
 
 ul {
-    text-align: center;    
+    text-align: center; 
+}
+
+.btn-border {
+    border-radius: 30px;
+    border: none;
 }
