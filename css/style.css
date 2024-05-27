@@ -23,6 +23,18 @@ body {
     justify-content: space-between;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
+.f-direction-col {
+    flex-direction: column;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
 /* LAYOUT CLASSES */
 .container {
     max-width: 1200px;
@@ -84,13 +96,22 @@ body {
     background-color: #fff;
 }
 
-.bg-darkblue {
-    background-color: #00008B;
+.bg-jumbo {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: center;
 }
 
-.bg-violet {
-    background-color: #EE82EE;
+.btn-bg-black {
+    background-color: #313338;
+    color: #fff;
 }
+
+
+
+
+
+
 
 .bg-white {
     background-color: #fff;
@@ -136,6 +157,10 @@ body {
     margin-top: 5px;
 }
 
+.m-10 {
+    margin: 10px;
+}
+
 .p-7-10 {
     padding: 7px 10px;   
 }
@@ -164,6 +189,10 @@ body {
     padding: 10px;
 }
 
+.p-15 {
+    padding: 15px;
+}
+
 .p-35 {
     padding: 35px;
 }
@@ -180,11 +209,31 @@ body {
     color: #fff;
 }
 
-ul {
-    text-align: center; 
+.t-align-center {
+    text-align: center;    
 }
 
 .btn-border {
     border-radius: 30px;
     border: none;
+}
+
+.text-white {
+    color: #fff;
+}
+
+h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.hero-caption {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 100;
+    line-height: 35px;
+}
+
+.text-20 {
+    font-size: 20px;
 }
