@@ -145,14 +145,6 @@ footer {
 
 
 
-.bg-darkturquoise {
-    border: 1px solid #23272A;
-}
-
-.bg-lightcoral {
-    border: 1px solid #F08080;
-}
-
 .bg-lightseagreen {
     border: 1px solid #20b2aa;
 }
@@ -181,6 +173,10 @@ footer {
     margin-top: 5px;
 }
 
+.mt-20 {
+    margin-top: 20px;
+}
+
 .p-5 {
     padding: 5px;
 }
@@ -205,10 +201,6 @@ footer {
     padding: 20px 0;
 }
 
-.py-10-20 {
-    padding: 10px 0 20px 0;
-}
-
 .pt-5 {
     padding-top: 5px;
 }
@@ -219,6 +211,14 @@ footer {
 
 .pt-35 {
     padding-top: 35px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
 }
 
 /* Other styles */ 
@@ -278,7 +278,7 @@ h3 {
 }
 
 .footer-text-title {
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .ita-flag {
@@ -289,4 +289,10 @@ h3 {
 .arrow {
     display: inline-block;
     vertical-align: middle;
+}
+
+div .social {
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px 0 0;
 }
