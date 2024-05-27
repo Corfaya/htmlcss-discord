@@ -139,15 +139,6 @@ footer {
     background-repeat: no-repeat;
 }
 
-
-
-
-
-
-
-.bg-aqua {
-    border: 1px solid #7FFFD4;
-}
 /* Margins and paddings */
 .m-10 {
     margin: 10px;
@@ -177,8 +168,8 @@ footer {
     padding: 5px;
 }
 
-.p-7-10 {
-    padding: 7px 10px;   
+.p-10-15 {
+    padding: 10px 15px;   
 }
 
 .p-10 {
@@ -213,8 +204,8 @@ footer {
     padding-top: 35px;
 }
 
-.pt-50 {
-    padding-top: 50px;
+.pt-100 {
+    padding-top: 100px;
 }
 
 .pb-30 {
@@ -224,7 +215,7 @@ footer {
 /* Other styles */ 
 .col-60 li {
     display: inline-block;
-    padding: 2px 5px;
+    padding: 2px 15px;
 }
 
 li {
@@ -240,6 +231,10 @@ li {
     text-align: center;    
 }
 
+button {
+    cursor: pointer;
+}
+
 .btn-border {
     border-radius: 30px;
     border: none;
@@ -251,12 +246,12 @@ li {
 
 h1 {
     font-size: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 h2 {
-    font-size: 40px;
-    padding-bottom: 20px;
+    font-size: 45px;
+    padding-bottom: 30px;
 }
 
 h3 {
@@ -292,6 +287,7 @@ h3 {
 .arrow {
     display: inline-block;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 div .social {
@@ -306,4 +302,8 @@ div .social {
 
 .footer-list {
     line-height: 30px;
+}
+
+.border-top {
+    border-top: 1px solid #4E5C89;
 }
