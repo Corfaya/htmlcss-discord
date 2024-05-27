@@ -111,6 +111,11 @@ body {
     background-color: #F5F5F5;
 }
 
+.btn-bg-blue {
+    background-color: #7289DA;
+    color: #fff;
+}
+
 .wave {
     background-image: url("../img/wave.svg");
     background-size: cover;
@@ -122,13 +127,18 @@ body {
     transform: rotate(180deg);
 }
 
-
-
-
-
-.bg-forestgreen {
-    background-color: #228B22;
+.stars-box {
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+
+
+
+
+
 
 .bg-darkturquoise {
     background-color: #23272A;
@@ -156,6 +166,10 @@ body {
 
 .ml-auto {
     margin-left: auto;
+}
+
+.my-100 {
+    margin: 100px 0;
 }
 
 .mt-5 {
@@ -229,6 +243,16 @@ body {
 
 h1 {
     font-size: 50px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-size: 25px;
     padding-bottom: 20px;
 }
 
