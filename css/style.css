@@ -116,6 +116,7 @@ body {
     background-size: cover;
     background-position: center;
     height: 100px;
+    opacity: 0.1;
 }
 
 .wave-rotate {
@@ -160,10 +161,6 @@ body {
 
 .mt-5 {
     margin-top: 5px;
-}
-
-.mr-30 {
-    margin-right: 60px;
 }
 
 .p-5 {
